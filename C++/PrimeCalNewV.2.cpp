@@ -17,7 +17,8 @@ int main(){
     ll n;
     cin >> n;
     if(IsPrime(n)){
-        cout << "It's a Prime!";
+        cout << "It's a Prime!" << endl;
+        return 0;
     }else{
         cout << "It's not a Prime!";
         cout << endl;
